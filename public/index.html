@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>🪨📄✂️🦎🖖 Piedra, Papel, Tijera, Lagarto, Spock</h1>
+
+    <div class="rules">
+        <h2>Reglas del juego:</h2>
+
+        1. 🪨 Piedra aplasta ✂️ Tijera <br>
+        2. 🪨 Piedra aplasta 🦎 Lagarto <br>
+        3. 📄 Papel cubre 🪨 Piedra <br>
+        4. 📄 Papel desautoriza 🖖 Spock <br>
+        5. ✂️ Tijera corta 📄 Papel <br>
+        6. ✂️ Tijera decapita 🦎 Lagarto <br>
+        7. 🦎 Lagarto envenena 🖖 Spock <br>
+        8. 🦎 Lagarto se come 📄 Papel <br>
+        9. 🖖 Spock vaporiza 🪨 Piedra <br>
+        10. 🖖 Spock rompe ✂️ Tijera
+        <br>
+        <br>
+    </div>
+
+    <div class="options">
+        <div class="option" data-choice="piedra">🪨 Piedra</div>
+        <div class="option" data-choice="papel">📄 Papel</div>
+        <div class="option" data-choice="tijera">✂️ Tijera</div>
+        <div class="option" data-choice="lagarto">🦎 Lagarto</div>
+        <div class="option" data-choice="spock">🖖 Spock</div>
+    </div>
+
+    <div class="results">
+        <div class="result-box" id="player-choice">Jugador: -</div>
+        <div class="result-box" id="computer-choice">Computadora: -</div>
+        <div class="winner" id="winner">Resultado: -</div>
+    </div>
+
+    <div class="scoreboard">
+        <div class="score" id="player-score">Jugador 🧑: 0</div>
+        <div class="score" id="computer-score">Computadora 🤖: 0</div>
+        <button id="reset-button">Reiniciar marcador 🔄</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

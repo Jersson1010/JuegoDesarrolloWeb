@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Output de TypeScript
+dist/
+*.js
+*.js.map
+
+# Archivos temporales del sistema o IDE
+.DS_Store
+Thumbs.db
+*.log
+
+# VS Code
+.vscode/
+
+# Archivos de compilación temporales
+*.tsbuildinfo
+
+# HTML compilado si no es parte del código fuente
+public/*.js
+public/*.js.map
+
+# Configs de entorno (si usas .env más adelante)
+.env
